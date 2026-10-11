@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChainShield Security Policy</title>
+    <meta
+      name="description"
+      content="Web3 blockchain security policy for authorized website and smart-contract testing in a controlled environment."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">Ξ</span>
+          <span>ChainShield</span>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#scope">Project Scope</a>
+          <a href="#supported">Testing</a>
+          <a href="#protection">Data Protection</a>
+          <a href="#reporting">Reporting</a>
+          <a href="#deployment">Deployment</a>
+        </nav>
+        <button class="nav-button" type="button">Secure Mode</button>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Web3 Security Policy</p>
+            <h1>Protecting blockchain systems with controlled, permissioned security testing.</h1>
+            <p class="lead">
+              This project supports authorized website and smart-contract security review in a
+              controlled environment, with clear rules for safe testing and responsible disclosure.
+            </p>
+            <div class="hero-actions">
+              <a href="#scope" class="primary-btn">Review Policy</a>
+              <a href="#reporting" class="secondary-btn">Report a Vulnerability</a>
+            </div>
+            <ul class="status-list" aria-label="Security policy status">
+              <li>Permissioned testing</li>
+              <li>Testnet-only experimentation</li>
+              <li>Private report handling</li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Security policy overview">
+            <div class="panel-header">
+              <span class="dot green"></span>
+              <span>Policy overview</span>
+            </div>
+
+            <div class="metric-card">
+              <span>Environment</span>
+              <strong>Controlled</strong>
+            </div>
+
+            <div class="metric-card">
+              <span>Scope</span>
+              <strong>Web + Smart Contracts</strong>
+            </div>
+
+            <div class="metric-card">
+              <span>Deployment</span>
+              <strong>Mainnet Restricted</strong>
+            </div>
+
+            <div class="policy-tile">
+              <span class="tile-label">Security standard</span>
+              <strong>Authorization required</strong>
+            </div>
+          </div>
+        </section>
+
+        <section id="scope" class="content-section">
+          <div class="section-heading">
+            <p class="eyebrow">Project Scope</p>
+            <h2>Authorized testing in a controlled environment.</h2>
+          </div>
+          <div class="text-box">
+            <p>
+              This project is for authorized website and smart-contract security testing in a
+              controlled environment.
+            </p>
+          </div>
+        </section>
+
+        <section id="supported" class="content-section">
+          <div class="section-heading">
+            <p class="eyebrow">Supported Testing</p>
+            <h2>Focused checks that align with secure Web3 development.</h2>
+          </div>
+          <div class="card-grid">
+            <article class="info-card">
+              <span class="card-icon">🔒</span>
+              <h3>Website security</h3>
+              <p>HTTPS and security-header checks for web-facing surfaces.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🧪</span>
+              <h3>Smart contract validation</h3>
+              <p>Solidity unit and behavior tests to verify intended execution paths.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🛡️</span>
+              <h3>Access controls</h3>
+              <p>Review of permissions, transaction validation, and authorization logic.</p>
+            </article>
+            <article class="info-card">
+              <span class="card-icon">🌐</span>
+              <h3>Testnet experiments</h3>
+              <p>Safe experimentation and validation in testnet-only environments.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="protection" class="content-section split-section">
+          <div class="section-heading left">
+            <p class="eyebrow">Data Protection</p>
+            <h2>Minimal data handling by design.</h2>
+          </div>
+          <div class="list-box">
+            <ul>
+              <li>No passwords or authentication codes are collected.</li>
+              <li>No wallet seed phrases or private keys are requested.</li>
+              <li>No personal visitor data is intentionally collected.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="reporting" class="content-section split-section">
+          <div class="section-heading left">
+            <p class="eyebrow">Reporting a Security Issue</p>
+            <h2>Responsible disclosure standards.</h2>
+          </div>
+          <div class="list-box warning-box">
+            <p>
+              Report suspected vulnerabilities privately to the project maintainer. Do not publish
+              sensitive exploit details or test against systems without permission.
+            </p>
+          </div>
+        </section>
+
+        <section id="deployment" class="content-section">
+          <div class="section-heading">
+            <p class="eyebrow">Deployment Policy</p>
+            <h2>Mainnet deployment requires completion and independent review.</h2>
+          </div>
+          <div class="text-box">
+            <p>
+              Do not deploy to mainnet until testing, review, and appropriate independent security
+              assessment are complete.
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> ChainShield Security Policy</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
